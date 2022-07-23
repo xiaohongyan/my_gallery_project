@@ -1,0 +1,64 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.header{
+	margin: 25px auto;
+	width: 1200px;
+}
+
+.header .menu ul{
+	display: none;
+	list-style: none;
+	position: absolute;
+	width: 85px;
+	opacity: 0.5;
+	background-color: white;
+}
+
+.header .menu .menu_title{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	width: 80px ;
+	text-align: center;
+} 
+
+.header .logo{
+	float:  left;
+	position: relative;
+}
+.header .menu {
+	float:  left;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 16px;
+}
+
+.header .menu ul li{
+	margin-top: 15px;
+	text-align: center;
+	width: 82px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header .auth{
+	float: right;
+}
+
+.header .auth ul li{
+	float: left;
+	margin-right: 70px;
+	list-style: none;
+	margin-top: 12px;
+}
+.content{
+	width: 1200px;
+	margin: 25px auto;
+}
+
+.content .banner .banner-img{
+	margin-top: 15px;
+}
